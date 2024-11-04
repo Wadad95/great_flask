@@ -1,0 +1,45 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "homepage",
+        "kind": 2,
+        "importPath": "övning_flask",
+        "description": "övning_flask",
+        "peekOfCode": "def homepage():\n    return render_template(\"homepage.html\",title=homepage, test=\"Hello A\")\n@skills_app.route(\"/about\")\ndef about():\n    return render_template(\"about.html\", pagettle=\"About Us\", test=\"Hello B\")\nif __name__==\"__main__\":\n    skills_app.run()",
+        "detail": "övning_flask",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "övning_flask",
+        "description": "övning_flask",
+        "peekOfCode": "def about():\n    return render_template(\"about.html\", pagettle=\"About Us\", test=\"Hello B\")\nif __name__==\"__main__\":\n    skills_app.run()",
+        "detail": "övning_flask",
+        "documentation": {}
+    },
+    {
+        "label": "skills_app",
+        "kind": 5,
+        "importPath": "övning_flask",
+        "description": "övning_flask",
+        "peekOfCode": "skills_app = Flask(__name__)\n@skills_app.route(\"/\")\ndef homepage():\n    return render_template(\"homepage.html\",title=homepage, test=\"Hello A\")\n@skills_app.route(\"/about\")\ndef about():\n    return render_template(\"about.html\", pagettle=\"About Us\", test=\"Hello B\")\nif __name__==\"__main__\":\n    skills_app.run()",
+        "detail": "övning_flask",
+        "documentation": {}
+    }
+]
